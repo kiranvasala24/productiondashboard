@@ -1,6 +1,7 @@
 import { Building } from 'lucide-react';
 import React from 'react';
 import Header from '../components/Header/Header';
+import Footer from '../components/Footer/Footer';
 import ProjectCard from '../components/ProjectCard';
 import ApplicationsTable from '../components/ApplicationsTable';
 import { productionDashboardMessages } from '../constants/messages';
@@ -65,9 +66,9 @@ const ProductionDashboard: React.FC = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background flex flex-col">
       <Header />
-      <main className="px-5 md:px-10 py-6 flex flex-col items-center">
+      <main className="px-5 md:px-10 py-6 flex flex-col items-center flex-1">
         <div className="w-full max-w-[1300px]">
           {/* Dashboard Header */}
           <section className="mb-8 animate-fade-in">
@@ -110,6 +111,7 @@ const ProductionDashboard: React.FC = () => {
           </section>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
