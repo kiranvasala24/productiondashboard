@@ -7,6 +7,7 @@ import LandingPage from "./pages/LandingPage";
 import ProductionDashboard from "./pages/ProductionDashboard";
 import ViewOpportunities from "./pages/ViewOpportunities";
 import FilmProjectDetails from "./pages/FilmProjectDetails";
+import RoleDetailPage from "./pages/RoleDetailPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/dashboard" element={<ProductionDashboard />} />
           <Route path="/opportunities" element={<ViewOpportunities />} />
           <Route path="/project/:id" element={<FilmProjectDetails />} />
+          <Route path="/role/:id" element={<RoleDetailPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
