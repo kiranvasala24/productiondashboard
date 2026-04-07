@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LandingPage from "./pages/LandingPage";
 import ProductionDashboard from "./pages/ProductionDashboard";
 import ViewOpportunities from "./pages/ViewOpportunities";
+import FilmProjectDetails from "./pages/FilmProjectDetails";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
