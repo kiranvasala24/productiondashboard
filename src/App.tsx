@@ -7,6 +7,7 @@ import LandingPage from "./pages/LandingPage";
 import ProductionDashboard from "./pages/ProductionDashboard";
 import ViewOpportunities from "./pages/ViewOpportunities";
 import FilmProjectDetails from "./pages/FilmProjectDetails";
+import RoleDetailPage from "./pages/RoleDetailPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
