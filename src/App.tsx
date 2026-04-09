@@ -8,6 +8,7 @@ import ProductionDashboard from "./pages/ProductionDashboard";
 import ViewOpportunities from "./pages/ViewOpportunities";
 import FilmProjectDetails from "./pages/FilmProjectDetails";
 import RoleDetailPage from "./pages/RoleDetailPage";
+import ApplicationFormPage from "./pages/ApplicationFormPage";
 import LoginPage from "./pages/LoginPage";
 import SignUpPage from "./pages/SignUpPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
@@ -28,6 +29,7 @@ const App = () => (
           <Route path="/opportunities" element={<ViewOpportunities />} />
           <Route path="/project/:id" element={<FilmProjectDetails />} />
           <Route path="/role/:id" element={<RoleDetailPage />} />
+          <Route path="/role/:id/apply" element={<ApplicationFormPage />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/signup" element={<SignUpPage />} />
           <Route path="/forgot-password" element={<ForgotPasswordPage />} />
