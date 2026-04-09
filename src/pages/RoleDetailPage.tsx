@@ -135,7 +135,10 @@ const RoleDetailPage: React.FC = () => {
 
         {/* Apply button */}
         <div className="flex justify-center mb-10">
-          <button className="px-8 py-2.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-primary-foreground transition-colors">
+          <button
+            className="px-8 py-2.5 rounded-md border border-primary text-primary font-semibold text-sm hover:bg-primary hover:text-primary-foreground transition-colors"
+            onClick={() => navigate('/role/1/apply')}
+          >
             Apply for Role
           </button>
         </div>
