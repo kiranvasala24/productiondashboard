@@ -8,6 +8,10 @@ import ProductionDashboard from "./pages/ProductionDashboard";
 import ViewOpportunities from "./pages/ViewOpportunities";
 import FilmProjectDetails from "./pages/FilmProjectDetails";
 import RoleDetailPage from "./pages/RoleDetailPage";
+import LoginPage from "./pages/LoginPage";
+import SignUpPage from "./pages/SignUpPage";
+import ForgotPasswordPage from "./pages/ForgotPasswordPage";
+import ResetPasswordPage from "./pages/ResetPasswordPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
