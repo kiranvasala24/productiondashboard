@@ -1,8 +1,8 @@
 import React from 'react';
 import { ArrowLeft, Users, Clock, Star } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
 
 const roleData = {
   movieTitle: 'Midnight in Manhattan',
