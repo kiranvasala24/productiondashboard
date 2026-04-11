@@ -1,9 +1,9 @@
 import React from 'react';
 import { ArrowLeft, MapPin, Clock, DollarSign } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
-import Header from '../components/Header/Header';
-import Footer from '../components/Footer/Footer';
-import { viewOpportunitiesMessages } from '../constants/messages';
+import Header from '../../components/Header/Header';
+import Footer from '../../components/Footer/Footer';
+import { viewOpportunitiesMessages } from '../../constants/messages';
 import cityImage from '@/assets/city-night.jpg';
 
 const ViewOpportunities: React.FC = () => {
