@@ -16,6 +16,7 @@ import ResetPasswordPage from "./pages/ResetPasswordPage";
 import DancersLandingPage from "./pages/dancers-flow/DancersLandingPage";
 import DanceRoleDetailPage from "./pages/dancers-flow/DanceRoleDetailPage";
 import DanceApplicationFormPage from "./pages/dancers-flow/DanceApplicationFormPage";
+import VoiceLandingPage from "./pages/voice-actors-flow/VoiceLandingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/dancers" element={<DancersLandingPage />} />
           <Route path="/dancers/role/:id" element={<DanceRoleDetailPage />} />
           <Route path="/dancers/role/:id/apply" element={<DanceApplicationFormPage />} />
+          <Route path="/voice-actors" element={<VoiceLandingPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
