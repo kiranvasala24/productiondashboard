@@ -39,6 +39,7 @@ const App = () => (
           <Route path="/reset-password" element={<ResetPasswordPage />} />
           <Route path="/dancers" element={<DancersLandingPage />} />
           <Route path="/dancers/role/:id" element={<DanceRoleDetailPage />} />
+          <Route path="/dancers/role/:id/apply" element={<DanceApplicationFormPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
