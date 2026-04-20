@@ -98,7 +98,7 @@ const DanceRoleDetailPage: React.FC = () => {
         {/* Apply Button */}
         <div className="flex justify-end mt-8">
           <button
-            onClick={() => navigate('/role/dance-1/apply')}
+            onClick={() => navigate('/dancers/role/dance-1/apply')}
             className="px-6 py-2.5 rounded-md bg-primary text-primary-foreground font-semibold text-sm hover:opacity-90 transition-opacity"
           >
             Apply for Role
