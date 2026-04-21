@@ -18,6 +18,7 @@ import DanceRoleDetailPage from "./pages/dancers-flow/DanceRoleDetailPage";
 import DanceApplicationFormPage from "./pages/dancers-flow/DanceApplicationFormPage";
 import VoiceLandingPage from "./pages/voice-actors-flow/VoiceLandingPage";
 import VoiceRoleDetailPage from "./pages/voice-actors-flow/VoiceRoleDetailPage";
+import StuntLandingPage from "./pages/stunt-performer-flow/StuntLandingPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -44,6 +45,7 @@ const App = () => (
           <Route path="/dancers/role/:id/apply" element={<DanceApplicationFormPage />} />
           <Route path="/voice-actors" element={<VoiceLandingPage />} />
           <Route path="/voice-actors/role/:id" element={<VoiceRoleDetailPage />} />
+          <Route path="/stunt-performers" element={<StuntLandingPage />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
